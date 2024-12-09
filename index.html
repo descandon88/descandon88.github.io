@@ -76,6 +76,28 @@
                     </li>
                 </ul>
             </section>
+            <!-- Slide 6 -->
+            <section>
+                <h2>Estrategias de Selección: Matrices de Especialización</h2>
+                <ul>
+                    <li>Matriz de especialización: Ventajas comparativas Reveladas (<code>VCR<sub>c,p,t</sub></code>).</li>
+                </ul>
+                <p><code>VCR<sub>c,p,t</sub> = \(\frac{\frac{Xval<sub>c,p,t</sub>}{\sum<sub>c</sub>Xval<sub>c,p,t</sub>}}{\frac{\sum<sub>p</sub>Xval<sub>c,p,t</sub>}{\sum<sub>cp</sub>Xval<sub>c,p,t</sub>}}\)</code></p>
+                <ul>
+                    <li>Matriz de especialización binaria (<code>M<sub>c,p,t</sub></code>).</li>
+                </ul>
+                <p>
+                    <code>
+                    M<sub>c,p,t</sub> =
+                    \[
+                    \begin{cases}
+                    1 & \text{si } \left( \frac{1}{3} \sum_{i=0}^{2} VCR<sub>c,p,t-i</sub> \right) > 1 \ \text{o } \left( \frac{1}{4} \sum_{i=0}^{3} VCR<sub>c,p,t-i</sub> \right) > 1, \\
+                    0 & \text{lo contrario}.
+                    \end{cases}
+                    \]
+                    </code>
+                </p>
+            </section>
         </div>
     </div>
 
